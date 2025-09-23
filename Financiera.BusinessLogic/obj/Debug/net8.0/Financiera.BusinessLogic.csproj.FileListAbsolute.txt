@@ -15,3 +15,4 @@ D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.BusinessLogic\bin\D
 D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.BusinessLogic\bin\Debug\net8.0\Financiera.Model.pdb
 D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.BusinessLogic\obj\Debug\net8.0\Financiera.BusinessLogic.csproj.AssemblyReference.cache
 D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.BusinessLogic\obj\Debug\net8.0\Financie.C4EC8AB1.Up2Date
+D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.BusinessLogic\obj\Debug\net8.0\Financiera.BusinessLogic.sourcelink.json

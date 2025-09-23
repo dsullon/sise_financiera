@@ -270,3 +270,4 @@ D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.WebApp\bin\Debug\ne
 D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.WebApp\bin\Debug\net8.0\Financiera.Data.pdb
 D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.WebApp\obj\Debug\net8.0\Financiera.WebApp.csproj.AssemblyReference.cache
 D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.WebApp\obj\Debug\net8.0\Financie.D734D063.Up2Date
+D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.WebApp\obj\Debug\net8.0\Financiera.WebApp.sourcelink.json

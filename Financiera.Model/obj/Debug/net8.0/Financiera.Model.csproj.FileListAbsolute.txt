@@ -9,3 +9,4 @@ D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.Model\obj\Debug\net
 D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.Model\obj\Debug\net8.0\refint\Financiera.Model.dll
 D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.Model\obj\Debug\net8.0\Financiera.Model.pdb
 D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.Model\obj\Debug\net8.0\ref\Financiera.Model.dll
+D:\Personal\Cursos\SISE\DSE\AGO\NCapas\Financiera\Financiera.Model\obj\Debug\net8.0\Financiera.Model.sourcelink.json
