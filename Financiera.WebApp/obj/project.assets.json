@@ -6551,23 +6551,23 @@
     ]
   },
   "packageFolders": {
-    "D:\\Usuarios\\dsullon\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal\\Cursos\\SISE\\DSE\\AGO\\NCapas\\Financiera\\Financiera.WebApp\\Financiera.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\proyectoProfesor\\Financiera\\Financiera.WebApp\\Financiera.WebApp.csproj",
       "projectName": "Financiera.WebApp",
-      "projectPath": "D:\\Personal\\Cursos\\SISE\\DSE\\AGO\\NCapas\\Financiera\\Financiera.WebApp\\Financiera.WebApp.csproj",
-      "packagesPath": "D:\\Usuarios\\dsullon\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal\\Cursos\\SISE\\DSE\\AGO\\NCapas\\Financiera\\Financiera.WebApp\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\proyectoProfesor\\Financiera\\Financiera.WebApp\\Financiera.WebApp.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\proyectoProfesor\\Financiera\\Financiera.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "D:\\Usuarios\\dsullon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6582,11 +6582,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Personal\\Cursos\\SISE\\DSE\\AGO\\NCapas\\Financiera\\Financiera.BusinessLogic\\Financiera.BusinessLogic.csproj": {
-              "projectPath": "D:\\Personal\\Cursos\\SISE\\DSE\\AGO\\NCapas\\Financiera\\Financiera.BusinessLogic\\Financiera.BusinessLogic.csproj"
+            "C:\\Users\\user\\Documents\\proyectoProfesor\\Financiera\\Financiera.BusinessLogic\\Financiera.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\proyectoProfesor\\Financiera\\Financiera.BusinessLogic\\Financiera.BusinessLogic.csproj"
             },
-            "D:\\Personal\\Cursos\\SISE\\DSE\\AGO\\NCapas\\Financiera\\Financiera.Model\\Financiera.Model.csproj": {
-              "projectPath": "D:\\Personal\\Cursos\\SISE\\DSE\\AGO\\NCapas\\Financiera\\Financiera.Model\\Financiera.Model.csproj"
+            "C:\\Users\\user\\Documents\\proyectoProfesor\\Financiera\\Financiera.Model\\Financiera.Model.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\proyectoProfesor\\Financiera\\Financiera.Model\\Financiera.Model.csproj"
             }
           }
         }
@@ -6601,7 +6601,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -6631,7 +6631,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

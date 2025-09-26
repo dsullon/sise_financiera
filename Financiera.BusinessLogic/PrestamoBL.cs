@@ -65,10 +65,17 @@ namespace Financiera.BusinessLogic
                 throw new Exception("El plazo mínimo para el tipo de cliente asociado es de 24 meses.");
             }
 
-
+           
             //TODO:
+
             //Si el cliente es corporativo y el prestamo es de tipo Mi negocio, entonces se le asigna un 3% menos adicional
 
+            //if (tipoCliente.Nombre.Contains("CORPORATIVO") && prestamo.TipoPrestamo.Contains("MI NEGOCIO"))
+            //{
+            //  en proceso 
+            //}
+                
+                            
 
             // REGISTRO DEL PRÉSTAMO
             int nuevoID = prestamoDB.Registrar(prestamo);
