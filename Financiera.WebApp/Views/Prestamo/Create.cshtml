@@ -4,10 +4,11 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1 class="text-md-center text-decoration-underline"> Crear Endeudamiento </h1>
 
-<h4>Prestamo</h4>
-<hr />
+<h4>Préstamo</h4>
+
+
 @if (!string.IsNullOrEmpty(ViewBag.mensaje))
 {
     <div class="alert alert-danger">
@@ -15,58 +16,68 @@
         <p>@ViewBag.mensajeAdicional</p>
     </div>
 }
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="FechaDeposito" class="control-label"></label>
-                <input asp-for="FechaDeposito" class="form-control" />
-                <span asp-validation-for="FechaDeposito" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteID" class="control-label"></label>
-                <select asp-for="ClienteID" asp-items="@ViewBag.clientes" class="form-select">
-                    <option selected disabled>--SELECCIONE--</option>
-                </select>
-                <span asp-validation-for="ClienteID" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TipoPrestamoID" class="control-label"></label>
-                <select asp-for="TipoPrestamoID" asp-items="@ViewBag.tipos" class="form-select">
-                    <option selected disabled>--SELECCIONE--</option>
-                </select>
-                <span asp-validation-for="TipoPrestamoID" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Moneda" class="control-label"></label>
-                <input asp-for="Moneda" class="form-control" />
-                <span asp-validation-for="Moneda" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Importe" class="control-label"></label>
-                <input asp-for="Importe" class="form-control" />
-                <span asp-validation-for="Importe" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Plazo" class="control-label"></label>
-                <input asp-for="Plazo" class="form-control" />
-                <span asp-validation-for="Plazo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Tasa" class="control-label"></label>
-                <input asp-for="Tasa" class="form-control" />
-                <span asp-validation-for="Tasa" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <!-- ancho medio, centrado -->
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label asp-for="FechaDeposito" class="form-label fs-5 ">FechaDeposito📅</label>
+                        <input asp-for="FechaDeposito" class="form-control" style="background-color:cornsilk" />
+                        <span asp-validation-for="FechaDeposito" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="ClienteID" class="form-label fs-5">Cliente👨‍🦳👩‍🦳</label>
+                        <select asp-for="ClienteID" asp-items="@ViewBag.clientes" class="form-select" style="background-color:cornsilk">
+                            <option selected disabled>--SELECCIONE--</option>
+                        </select>
+                        <span asp-validation-for="ClienteID" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="TipoPrestamoID" class="form-label fs-5">Tipo Préstamo 🧑🏠🏫🏪</label>
+                        <select asp-for="TipoPrestamoID" asp-items="@ViewBag.tipos" class="form-select" style="background-color:cornsilk" >
+                            <option selected disabled>--SELECCIONE--</option>
+                        </select>
+                        <span asp-validation-for="TipoPrestamoID" class="text-danger" ></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Moneda" class="form-label fs-5">Moneda💵💶💴💷</label>
+                        <input asp-for="Moneda" class="form-control" style="background-color:cornsilk"  />
+                        <span asp-validation-for="Moneda" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Importe" class="form-label fs-5">Importe🤑💸</label>
+                        <input asp-for="Importe" class="form-control" style="background-color:cornsilk"  />
+                        <span asp-validation-for="Importe" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Plazo" class="form-label fs-5">Plazo⏱️⏳</label>
+                        <input asp-for="Plazo" class="form-control" style="background-color:cornsilk"  />
+                        <span asp-validation-for="Plazo" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Tasa" class="form-label fs-5">Tasa🫰😿</label>
+                        <input asp-for="Tasa" class="form-control" style="background-color:cornsilk" />
+                        <span asp-validation-for="Tasa" class="text-danger " ></span>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-action="Index" class="btn btn-outline-info col-md-5">Regresar ⬅️</a>
+                    <input type="submit" value="Crear" class="btn btn-outline-info col-md-5"  />
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 
 <script>
